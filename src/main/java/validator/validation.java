@@ -1,5 +1,7 @@
 package validator;
 
+import org.junit.jupiter.api.Test;
+
 public class validation {
     public static boolean hasMinLength(String password, int min) {
         return password != null && password.length() >= min;
