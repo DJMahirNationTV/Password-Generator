@@ -6,7 +6,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class validationTest {
+class ValidationTest {
     @DisplayName("3.1 - min Length check")
     @Test
     void hasMinLength() {
